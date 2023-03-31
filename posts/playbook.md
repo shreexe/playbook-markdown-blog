@@ -1,15 +1,11 @@
 ---
-title: "Coffee Playbook"
+title: "iCoffee Playbook"
 metaTitle: "iCoffee Playbook"
-metaDesc: "playbook"
-socialImage: images/lo.png
+metaDesc: "This Playbook details a set of rules and guidelines that you should follow to get started with coding"
+socialImage: images/icoffee-playbook.jpg
 ---
 
-This Playbook details a set of rules and guidelines that you should follow during your time working with Coffee.
-
-On-site location: Park View Apartments, 85/94, 3rd Floor, GN Chetty Rd, T. Nagar, Chennai - 600017
-Point of communication: Gaurav G.
-Email: [Gaurav](mailto:gauravg@coffeeinc.in) | [Coffee](mailto:coffee@coffeeinc.in) | [Aurav](mailto:auravgcs@coffeeinc.in)
+This Playbook details a set of rules and guidelines that you should follow to get started with coding.
 
 ## On Code Editors
 
@@ -68,12 +64,12 @@ Make sure to update daily tasks in the weekly worklog covering the time you have
 
 ## Key Things to keep in mind
 
-Be Curious. Question everything.
-Be ready to adapt and switch projects.
-Be Persistent.
-Learn at least one new thing everyday.
-Be a team player. Collaborate
-Go the extra mile.
+Be Curious. Question everything.  
+Be ready to adapt and switch projects.  
+Be Persistent.  
+Learn at least one new thing everyday.  
+Be a team player. Collaborate  
+Go the extra mile.  
 
 **And most importantly, Have fun.**
 
