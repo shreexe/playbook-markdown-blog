@@ -34,7 +34,7 @@ export default function PostPage({ frontmatter, content }) {
       <h1>{frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
       <Head>
-        <title>Playbook</title>
+        <title>{`${frontmatter.metaTitle}`}</title>
       </Head>
 
     </div>

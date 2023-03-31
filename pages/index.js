@@ -33,7 +33,8 @@ export default function Home({ posts }) {
           className="border border-yellow-800 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col"
         >
           <Head>
-            <title>Playbook</title>
+            <title>Moon</title>
+            <meta name='Description' content='Moon||Playbook'></meta>
           </Head>
           <Link href={`/post/${slug}`} legacyBehavior>
             <a>
