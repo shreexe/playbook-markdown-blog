@@ -1,6 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import md from 'markdown-it';
+import Head from 'next/head';
 
 export async function getStaticPaths() {
   const files = fs.readdirSync('posts');
@@ -28,9 +29,20 @@ export async function getStaticProps({ params: { slug } }) {
 
 export default function PostPage({ frontmatter, content }) {
   return (
-    <div className='prose mx-auto'>
-      <h1>{frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-    </div>
+      <>
+          <Head>
+              <title>{frontmatter.title} | Moon by Coffee</title>
+              <meta name="description" content={frontmatter.description} />
+              <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1"
+              />
+              <link rel="icon" href="/favicon.ico" />
+          </Head>
+          <div className="prose mx-auto">
+              <h1>{frontmatter.title}</h1>
+              <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+          </div>
+      </>
   );
 }
