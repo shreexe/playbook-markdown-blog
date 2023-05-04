@@ -10,7 +10,7 @@ export async function getStaticPaths() {
       slug: fileName.replace('.md', ''),
     },
   }));
-  return { 
+  return {
     paths,
     fallback: false,
   };
@@ -31,8 +31,8 @@ export default function PostPage({ frontmatter, content }) {
   return (
       <>
           <Head>
-              <title>{frontmatter.title} | Moon by Coffee</title>
-              <meta name="description" content={frontmatter.description} />
+              <title>{frontmatter.metaTitle} | Moon by Coffee</title>
+              <meta name="description" content={frontmatter.metaDesc} />
               <meta
                   name="viewport"
                   content="width=device-width, initial-scale=1"
